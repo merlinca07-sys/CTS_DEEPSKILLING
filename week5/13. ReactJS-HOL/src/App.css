@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:white;
+}
+
+.container{
+    width:1000px;
+    margin:90px auto;
+    display:flex;
+    justify-content:center;
+}
+
+.section{
+    width:300px;
+    min-height:340px;
+    padding:0 35px;
+}
+
+.border{
+    border-right:4px solid green;
+}
+
+h1{
+    font-size:28px;
+    margin-bottom:28px;
+    font-weight:bold;
+}
+
+h2{
+    font-size:22px;
+    margin-top:18px;
+    margin-bottom:12px;
+    font-weight:bold;
+}
+
+h3{
+    font-size:17px;
+    margin-bottom:18px;
+    font-weight:bold;
+}
+
+p{
+    font-size:15px;
+    margin-bottom:22px;
+}
+
+.book-name{
+    font-size:18px;
+    font-weight:700;
+    color:#000;
+    margin-bottom:12px;
+}
+
+.book-price{
+    font-size:16px;
+    font-weight:600;
+    color:#000;
+    margin-bottom:18px;
+}
+
+.course-name{
+    font-size:22px;
+    font-weight:700;  
+    color:#000;    /* Bold */
+    margin-bottom:10px;
+}
+
+.course-date{
+    font-size:16px;
+    font-weight:700;   
+    color:#000;   /* Bold */
+    margin-bottom:30px;
+}
