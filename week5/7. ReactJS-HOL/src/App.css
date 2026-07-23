@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.mydiv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: green;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid #bdbdbd;
+}
+
+th,
+td {
+    border: 2px solid #bdbdbd;
+    padding: 6px 12px;
+    text-align: center;
+    color: #7bc67b;
+    font-weight: bold;
+}
+
+th {
+    background-color: white;
+}
+
+.table-box {
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid #bdbdbd;
+    background-color: white;
+}
