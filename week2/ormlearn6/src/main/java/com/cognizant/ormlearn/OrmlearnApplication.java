@@ -30,6 +30,10 @@ public class OrmlearnApplication {
 
         
         testSearchCountries();
+        testSearchCountriesSorted();
+        testCountriesStartingWith();
+        
+        
         
     }
     private static void testSearchCountries() {
@@ -43,6 +47,32 @@ public class OrmlearnApplication {
 
         LOGGER.info("End");
     }
+    private static void testSearchCountriesSorted() {
+
+    LOGGER.info("Start");
+
+    List<Country> countries =
+            countryService.searchCountryContainingSorted("ou");
+
+    LOGGER.debug("Countries={}", countries);
+
+    LOGGER.info("End");
+    }
+    private static void testCountriesStartingWith() {
+
+    LOGGER.info("Start");
+
+    List<Country> countries =
+            countryService.searchCountryStartingWith("Z");
+
+    LOGGER.debug("Countries={}", countries);
+
+    LOGGER.info("End");
+}
+    
+    
+
+    
 
    
 
